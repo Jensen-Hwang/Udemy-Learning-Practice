@@ -1,0 +1,25 @@
+body{
+    background-color: beige;
+}
+h1{
+    color : purple;
+    background-color : rgb(0, 0, 255);
+    text-align: center;
+    font-weight : 400;
+    text-decoration: yellow underline wavy;
+    letter-spacing: 15px;
+    font-size: 80px;
+    font-family : Verdana;
+}
+h2{
+    color : green;
+}
+p{
+    line-height : 2;
+    color : navy;
+}
+
+a{
+    text-decoration: none;
+    color : orange;
+}
