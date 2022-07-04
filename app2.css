@@ -1,0 +1,89 @@
+/* * {
+    background-color: cyan;
+} */
+
+body {
+    background-color: #fefae0;
+}
+button {
+    font-size : 30px;
+    background-color: #bde0fe;
+}
+
+#signup{
+    background-color: #023047;
+    color : red;
+}
+
+span {
+    color : #457b9d;
+}
+
+h1, h2 {
+    color : darkslateblue;
+}
+h1, h2 {
+    color : #00b4d8;
+}
+.tag {
+    background-color: #e63946;
+    color : #f1faee;
+}
+
+span a {
+    color : #457b9d;
+    text-decoration: none;
+    font-weight : 700;
+}
+
+/* .Post a */
+
+footer a {
+    color : #e63946;
+}
+
+h2 + button {
+    font-size : 20px;
+    background-color: magenta;
+}
+
+footer > a {
+    color : #457b9d;
+}
+
+input[type = "password"] {
+    color : greenyellow;
+}
+/* *=는 값을 포함하는 것을 선택 */
+a[href *= "Pu"] {
+    color : #8338ec;
+}
+
+.post a:hover{
+    text-decoration: underline;
+}
+
+.post button:active{
+    background-color: aqua;
+}
+
+h2::first-letter{
+    font-size : 40px;
+}
+
+h1::selection{
+    background-color: orange;
+}
+
+.post button:hover{
+    background-color: red;
+    color : #ffffff
+}
+
+button:hover{
+    background-color: olive;
+}
+
+button{
+    background-color: white !important;
+}
