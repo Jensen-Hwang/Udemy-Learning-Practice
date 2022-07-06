@@ -1,0 +1,32 @@
+h1{
+    background-color: palegoldenrod;
+    border-width : 1px;
+    border-style : solid;
+    display : inline;
+}
+
+span{
+    background-color: aqua;
+    border : 1px solid red;
+    display : block;
+}
+
+div{
+    width : 200px;
+    padding : 30px;
+    margin : 30px;
+    display : inline-block;
+    border : 2px solid;
+    text-align: center;
+}
+
+section{
+    width : 800px;
+    height: 800px;
+    background-color : blue;
+}
+h2{
+    width : 50%;
+    height: 50%;
+    background-color: brown;
+}
