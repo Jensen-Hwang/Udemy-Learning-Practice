@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="display-1">기타 등등</h1>
+        <h2 class="display-2 text-primary">1. Icons<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em"
+                fill="currentColor" class="bi bi-music-note" viewBox="0 0 16 16">
+                <path d="M9 13c0 1.105-1.12 2-2.5 2S4 14.105 4 13s1.12-2 2.5-2 2.5.895 2.5 2z" />
+                <path fill-rule="evenodd" d="M9 3v10H8V3h1z" />
+                <path d="M8 2.82a1 1 0 0 1 .804-.98l3-.6A1 1 0 0 1 13 2.22V4L8 5V2.82z" />
+            </svg></h2>
+        <button class="btn btn-lg btn-danger">Delete<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em"
+                fill="currentColor" class="bi bi-trash3" viewBox="0 0 16 16">
+                <path
+                    d="M6.5 1h3a.5.5 0 0 1 .5.5v1H6v-1a.5.5 0 0 1 .5-.5ZM11 2.5v-1A1.5 1.5 0 0 0 9.5 0h-3A1.5 1.5 0 0 0 5 1.5v1H2.506a.58.58 0 0 0-.01 0H1.5a.5.5 0 0 0 0 1h.538l.853 10.66A2 2 0 0 0 4.885 16h6.23a2 2 0 0 0 1.994-1.84l.853-10.66h.538a.5.5 0 0 0 0-1h-.995a.59.59 0 0 0-.01 0H11Zm1.958 1-.846 10.58a1 1 0 0 1-.997.92h-6.23a1 1 0 0 1-.997-.92L3.042 3.5h9.916Zm-7.487 1a.5.5 0 0 1 .528.47l.5 8.5a.5.5 0 0 1-.998.06L5 5.03a.5.5 0 0 1 .47-.53Zm5.058 0a.5.5 0 0 1 .47.53l-.5 8.5a.5.5 0 1 1-.998-.06l.5-8.5a.5.5 0 0 1 .528-.47ZM8 4.5a.5.5 0 0 1 .5.5v8.5a.5.5 0 0 1-1 0V5a.5.5 0 0 1 .5-.5Z" />
+            </svg></button>
+        <div class="input-group flex-nowrap">
+            <span class="input-group-text" id="addon-wrapping"><svg xmlns="http://www.w3.org/2000/svg" width="16"
+                    height="16" fill="currentColor" class="bi bi-binoculars-fill" viewBox="0 0 16 16">
+                    <path
+                        d="M4.5 1A1.5 1.5 0 0 0 3 2.5V3h4v-.5A1.5 1.5 0 0 0 5.5 1h-1zM7 4v1h2V4h4v.882a.5.5 0 0 0 .276.447l.895.447A1.5 1.5 0 0 1 15 7.118V13H9v-1.5a.5.5 0 0 1 .146-.354l.854-.853V9.5a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0-.5.5v.793l.854.853A.5.5 0 0 1 7 11.5V13H1V7.118a1.5 1.5 0 0 1 .83-1.342l.894-.447A.5.5 0 0 0 3 4.882V4h4zM1 14v.5A1.5 1.5 0 0 0 2.5 16h3A1.5 1.5 0 0 0 7 14.5V14H1zm8 0v.5a1.5 1.5 0 0 0 1.5 1.5h3a1.5 1.5 0 0 0 1.5-1.5V14H9zm4-11H9v-.5A1.5 1.5 0 0 1 10.5 1h1A1.5 1.5 0 0 1 13 2.5V3z" />
+                </svg></span>
+            <input type="text" class="form-control" placeholder="Search" aria-label="Username"
+                aria-describedby="addon-wrapping">
+        </div>
+        <h2 class="display-2 mb-5">2. Utilities</h2>
+        <div class="row">
+            <div class="col-md-4 border rounded border-top-0 border-success shadow">
+                <button class="btn btn-info shadow-sm">Shadow</button>Lorem ipsum dolor sit amet
+                consectetur
+                adipisicing elit.
+                Dignissimos
+                est
+                minima,
+                cupiditate
+                alias sed odio nihil nobis culpa nam sunt quia ut quam atque eveniet consequuntur sint, et commodi cum!
+            </div>
+            <div class="my-5">
+                <button class="btn btn-primary p-0">Padding 0</button>
+                <button class="btn btn-primary p-1">Padding 1</button>
+                <button class="btn btn-primary p-2">Padding 2</button>
+                <button class="btn btn-primary p-3">Padding 3</button>
+                <button class="btn btn-primary p-4">Padding 4</button>
+                <button class="btn btn-primary p-5">Padding 5</button>
+            </div>
+        </div>
+        <button class="btn btn-lg btn-danger p-0 p-sm-1 p-m-2 p-lg-3 p-xl-4 p-xxl-5">!Change</button>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
